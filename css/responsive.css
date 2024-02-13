@@ -1,0 +1,52 @@
+@media screen and (max-width:992px){
+    .coustom-carousel {
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+        position: relative;
+    }
+    /* .footerstrip-left p,
+    .footerstrip-right p{
+    font-size: 1.1rem;
+    } */
+}
+@media screen and (max-width:768px){
+    .coustom-carousel {
+        width: 100%;
+        height: 65vh;
+        overflow: hidden;
+        position: relative;
+    }
+    .footerstrip-left p,
+    .footerstrip-right p{
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width:576px){
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+    }
+    .footerstrip-left p,
+    .footerstrip-right p{
+    font-size: 1.1rem;
+}
+}
+@media screen and (max-width:380px){
+    .thumbnail .item {
+        width: 7rem;
+        height: 10rem;
+    }
+    .footerstrip-left p, .footerstrip-right p {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+    .footer-strip .footerstrip-right a {
+        font-size: 1.1rem;
+    }
+    .arrows button {
+        width: 30px;
+        height: 30px;
+    }
+ 
+}
